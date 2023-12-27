@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .centered {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        h1 {
+            background-color: rgb(228, 231, 230);
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 250px;
+            min-height: 500px;
+            flex-grow: 1;
+        }
+
+        p {
+            margin-top: 0;
+        }
+
+        .content {
+            background-color: white;
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .overlay {
+            height: 94vh;
+            background-color: white;
+            padding: 2px;
+            margin: 0 auto;
+            position: absolute; /* Đặt vị trí của overlay là absolute */
+            top: 50%; /* Đưa overlay lên giữa theo chiều dọc */
+            left: 50%; /* Đưa overlay lên giữa theo chiều ngang */
+            transform: translate(-50%, -50%); /* Dịch chuyển overlay để nằm chính giữa h1 */
+            flex-grow: 1;
+        }
+        .total-background {
+            background-color: lightblue; /* Màu nền cho phần tử bao quanh Total $360 */
+            padding: 10px; 
+        }
+        
+    </style>
+</head>
+<body>
+    <h1></h1>
+    <div class="overlay">
+        <p><strong>Price Details</strong></p>
+        <P>1x Passenger&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $350</P>
+        <P>Tax and fee &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $8</P>
+        <P>Service free &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$2</P>
+        <div class="total-background">
+            <P><P><strong>Total</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$360</P></P>
+        </div>
+        <br>
+        <p><strong>Passengers</strong></p>
+        <p>1x adult 2 children</p>
+        <p><strong>Check-in baggage</strong></p>
+        <p>Depature  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 bags (120g total)</p>
+        <p>Roturn &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 bags (120g total)</p>
+        <P><strong>Services</strong></P>
+        <p>No extra services selected</p>
+    </div>
+</body>
+</html>

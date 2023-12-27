@@ -1,0 +1,20 @@
+#heading1 {
+    font-size: 25px;
+    color: rgb(0, 72, 255);
+}
+.heading1 {
+    background-color: aqua;
+    color: black;
+}
+.font-bold {
+    font-weight: 800;
+}
+*{
+    font-family: Arial, Helvetica,sans-serif;
+}
+h1:first-child {
+
+}
+h1:last-child {
+
+}

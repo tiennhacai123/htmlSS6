@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-heading {
+    background-color: lightblue;
+    width: 150px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    }
+.text{
+    text-align: center;
+    font-size: 25px;
+}
+.text1{
+    text-align: center;
+    font-size: 17px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px; 
+}
+
+.button {
+    background-color: black;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    margin: 5px; 
+}
+
